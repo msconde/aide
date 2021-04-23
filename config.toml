@@ -1,5 +1,8 @@
 baseURL = "http://example.org/"
 languageCode = "fr-FR"
-title = "Mon site"
-
+title = "Aide"
 theme= "ananke"
+
+[params]
+  featured_image = "/images/lelac.jpg"
+  mainSections = ["content"]

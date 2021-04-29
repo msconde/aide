@@ -1,10 +1,10 @@
 ---
 title: "Contact"
+layout: = "contact"
 date: 2021-04-23T16:24:30+02:00
 omit_header_text: true
-description: "Laissez-nous un message!"
 menu: main
-
+weight: = 3
 ---
 
 

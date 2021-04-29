@@ -5,4 +5,4 @@ menu: "main"
 weight: = 3
 ---
 
-### Liste des articles
+### Lista de artículos

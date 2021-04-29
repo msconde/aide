@@ -1,8 +1,47 @@
 baseURL = "http://example.org/"
-languageCode = "fr-FR"
+DefaultContentLanguage  = "fr"
 title = "Aide"
 theme= "ananke"
 
+pluralizeListTitles     = "false"
+disableLanguages       = "[]"
+
 [params]
   featured_image = "/images/lelac.jpg"
-  mainSections = ["content"]
+  recent_posts_number = 2
+#  mainSections = ["content"]
+
+
+[Languages]
+
+  [Languages.fr]
+    LanguageCode        = "fr"
+    LanguageName        = "Français"
+    weight              = 1
+
+
+  [Languages.en]
+    LanguageCode        = "en"
+    LanguageName        = "Anglais"
+    weight     = 2
+
+  [Languages.ar]
+    LanguageCode        = "ar"
+    LanguageName        = "Arabe"
+    weight     = 3  
+
+
+  [Languages.de]
+    LanguageCode        = "de"
+    LanguageName        = "Deutsche"
+    weight              = 4
+
+  [Languages.es]
+    LanguageCode        = "es"
+    LanguageName        = "Española"
+    weight              = 5
+
+  [Languages.zh-tw]
+    LanguageCode        = "zh-tw"
+    LanguageName        = "中文 (简体)"
+    weight              = 6
